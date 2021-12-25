@@ -1,0 +1,53 @@
+#lines-portada{
+    position: absolute;
+    right: 0% ;
+    top: 0;
+    opacity: .3;
+    height: 130%;
+    width: 160vw;
+}
+#corazoncito {
+    position: absolute;
+    height: 100%;
+    top:calc(100vh/2 - 455px);
+    width: 100%;
+}
+
+#portada-shines, .shines{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    
+}
+
+
+#eye,#time{
+    position: absolute;
+    top: 10%;
+    left:0;
+    transform: rotate(15deg);
+    width: 7rem;
+}
+
+#time{ 
+    width:15rem;
+    left: calc(100% - 12rem);
+}
+
+#load{
+    position: absolute;
+    width: 100%;
+    opacity:50%;
+}
+
+#flames{
+    position: absolute;
+    width: 60%;
+    top:10%;
+}
+
+#shy{
+    position: absolute;
+    top: 30%;
+    width: 70%;
+}

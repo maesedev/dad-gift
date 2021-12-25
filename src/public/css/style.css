@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Noto+Sans+KR:wght@400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Oxygen:wght@300;400;700&display=swap');
+
+/* 
+font-family: 'Homemade Apple', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oxygen', sans-serif; 
+*/
+:root{
+    --main-color: #F1584D;
+    --ligth-color: #e8e8ff;
+    --violet: #9647FF;
+    --light-blue:#54C7E6;
+    --terciary:#FFDD4A;
+    --dark-terciary:#2dc323;
+    --dark-blue:#517efc;
+    --light-violet:#fc51f3;
+
+
+
+}
+
+*{
+    text-transform: capitalize;
+    font-family: 'Oxygen',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section .sec-container > *{
+    
+    box-sizing: border-box;
+}
+/*sets*/ 
+
+
+.heart-left,.heart-right{
+    display: inline-block;
+    height: 4rem;
+    background-color: var(--main-color);
+    width: 2rem;
+    border-radius: 13px 13px 0 0 ;
+    transform: rotate(45deg);
+}
+.heart-left{
+    transform:    rotate(-45deg) translateX(13px) translateY(13px);
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+p{
+    z-index: 1;
+}
+.sec-container{
+    position: relative;
+    height: 100%;
+    width: 100%; 
+}
+
+.resaltar{
+    font-size: 2rem;
+}
+section{
+    overflow: hidden;
+    height: 100vh;
+    padding: 0 2vw;
+
+}
+.korean{
+    font-family: 'Noto  Sans KR', sans-serif;
+    font-weight: 700;
+}
+.bold{
+    font-weight: 500;
+}
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30vh;
+}
+
+.floating{
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    text-align: left;
+}
+
+
+ /* portada -------------------------------------------------*/
+.portada{
+    font-size: 2em;
+    background: linear-gradient(180deg , #7a00ff, var(--violet)) ;
+
+}
+
+h1{
+    z-index: 1;
+}
+.titulo{
+    color: var(--ligth-color);
+}
+.titulo, .titulo span{
+
+    letter-spacing: 1rem;
+    text-shadow: 0 1rem 2px  #0003;
+    line-height: 10vh;
+    font-weight: 600;
+    font-size: 3.5rem; 
+    margin-top: 1rem;
+}
+.titulo span{
+    display: inline-block;
+    font-family: 'Homemade Apple',cursive;
+    font-weight: 900;
+    color: var(--main-color);
+    transform: rotate(-10deg);
+    color: var(--terciary);
+    
+}
+
+#svg-papalines{
+    width: 20rem;
+    display: block;
+    margin: auto;
+}
+
+/*-------------------------------------------------------------*/
+/* //sec 1 */
+
+.sec-1{
+     color: var(--ligth-color);
+}
+/*.............................................................*/
+/*//sec-2*/
+.sec-2{
+    background-color: var(--terciary);
+}
+
+.float1{
+    font-size: 5rem;
+    transform: rotate(5deg);
+    top: calc(100% - 20rem);
+    color : #9c3f38;
+    opacity: .5;
+}
+
+.float0{
+    font-size: 4rem;
+    top: 50%;
+    color: #9c3f38;
+    opacity: .5;
+}
+
+/*.......................................*/
+/*sec-3*/
+.sec-3{
+    background-color: var(--light-blue);
+}
+
+.float2{
+    
+    position: absolute;
+    text-shadow: 10px 10px 4px #0006;
+    top: calc(100vh / 2 - 300px);
+    font-size: 9rem;
+    color: var(--ligth-color);
+    opacity: 48%;
+}
+
+
+/*.......................................*/
+/*sec-4*/
+
+.sec-4{
+    background-color: var(--main-color);
+}
+
+
+
+/*.......................................*/
+/*sec-5*/
+
+
+
+/*.......................................*/
+/*sec-6*/
+
+
+
+.p-familia{
+    font-size: 4rem;
+}
+/*sections...............*/
+
+.sec-1,.sec-2,.sec-3,.sec-4,.sec-5,.sec-6,.sec-7,.sec-8,.sec-9,.sec-10,.sec-11,.sec-12{
+    font-size: 2.6rem;
+    padding-bottom: 24vh;
+}
+
+
+
+/*sections gradients*/
+
+.sec-1{
+    background: linear-gradient(180deg, var(--violet),var(--main-color));
+}
+
+.shadow{
+    height: 130%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 -15rem 100px var(--violet) inset;
+}
+
+
+.sec-2{
+    background: linear-gradient(180deg,var(--main-color),var(--terciary));
+}
+
+.sec-3{
+    background: linear-gradient(180deg,var(--terciary),var(--light-blue));
+}
+
+.sec-4{
+    background: linear-gradient(180deg,var(--light-blue),var(--main-color));
+
+}
+
+.sec-5{
+    background: linear-gradient(180deg,var(--main-color),var(--ligth-color));
+
+}
+
+.sec-6{
+    background: linear-gradient(180deg,var(--ligth-color),var(--dark-blue));
+
+}
+
+.sec-7{
+    background: linear-gradient(180deg,var(--dark-blue),var(--light-violet));
+
+}
+
+.sec-8{
+    background: linear-gradient(180deg,var(--light-violet),var(--violet));
+}
+
+.sec-9{
+    background: linear-gradient(180deg,var(--violet),var(--ligth-color));   
+}
+
+.sec-10{
+    background: linear-gradient(180deg,var(--ligth-color),var(--dark-terciary));
+
+}
+.sec-11{
+    background: linear-gradient(180deg,var(--dark-terciary),var(--terciary));
+
+}
+
+.sec-12{
+    background: linear-gradient(180deg,var(--terciary),var(--main-color));
+
+}
