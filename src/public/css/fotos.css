@@ -1,29 +1,17 @@
-img, video{
-    border-radius: 1rem;
+img.imagen-sec-4 {
+    min-width: 300px;
+    max-width: 600px;
 }
 
 .imagenes{
     position: relative;
     height: 100%;
+    background:linear-gradient( 10deg, var(--violet), var(--main-color));
+    border-radius: 0 50px;
+    box-shadow: 0 0 50px #0005;
 }
-video{
-    width: 70%;
-}
-img{
-    width: 40vw;
-}
-.img1,.img2{
-    position: absolute;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    background-color:chartreuse;
-}
-
-.img1{
-    top: 30%;
-}
-
-.img2{
-    top: 60%;
+video {
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 90px;
 }

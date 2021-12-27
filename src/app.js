@@ -52,7 +52,9 @@ app.post("/secret", (req,res,next)=>{
     }
     })
 
-
+app.get("/test",(req,res)=>{
+    res.render("index")
+})
 
 
 app.set("port",process.env.PORT || 3000)
