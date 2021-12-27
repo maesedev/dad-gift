@@ -296,6 +296,37 @@ h1{
 }
 
 /*-------secret html ------------*/
+
+#secret-container-float{
+    transition: opacity 1s ease-in-out;
+    opacity: 100%s;
+    height: 80px;
+    padding:30px;
+    min-width: 300px;
+    max-width:500px;
+    background: #0008;
+    border-radius: 2rem;
+    position:fixed;
+    font-size:1.3rem;
+    top: 10px;
+    color:var(--ligth-color);  
+    left: 0;
+    text-shadow:0 0 8px #0007
+}
+
+
+#secret-container-float:after{
+    content:"click para ocultar";
+    font-size:1rem;
+    text-align: right;
+    display: block;
+    opacity: .8;
+
+}
+#secret-container::before{
+    background:black;
+}
+
 #secret-container{
     background-color: var(--light-blue);
     display: flex;

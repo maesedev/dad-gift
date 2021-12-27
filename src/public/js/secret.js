@@ -92,3 +92,7 @@ $submit.addEventListener("click",()=>{
 })
 
 
+document.getElementById("secret-container-float").addEventListener("click",(e)=>{
+    e.target.style.opacity = "0"
+    e.target.style.top = -"100%"
+})
