@@ -1,4 +1,7 @@
-let tiempo = 8;
+let tiempo = 2;
+
+
+
 const pistas = [
     {
         content: "1. Es una tecnologia que se itiliza para hacer paginas web, esta presente en todas y se especializa en la interactividad del sitio."
@@ -96,3 +99,9 @@ document.getElementById("secret-container-float").addEventListener("click",(e)=>
     e.target.style.opacity = "0"
     e.target.style.top = -"100%"
 })
+
+
+/****validar que no sean mas de 3 minutos */ 
+(()=>{
+    if (tiempoRestante > tiempo)    localStorage.setItem('mRest',3)
+})()
